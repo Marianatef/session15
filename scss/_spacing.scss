@@ -1,0 +1,27 @@
+$spacing-base: 16px;
+$spacing-small: 8px;
+$spacing-large: 24px;
+$width-full: 100%;
+$width-small: 100px;
+$width-medium: 200px;
+$width-large: 300px;
+$height-full: 100%;
+$height-small: 100px;
+$height-medium: 200px;
+$height-large: 300px;
+
+@mixin margin($size) {
+  margin: $size;
+}
+
+@mixin padding($size) {
+  padding: $size;
+}
+
+@mixin width($size) {
+  width: $size;
+}
+
+@mixin height($size) {
+  height: $size;
+}

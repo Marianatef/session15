@@ -1,0 +1,17 @@
+$colors: (
+  blue: #0000ff,
+  red: #ff0000,
+  green: #00ff00,
+  white: #fff,
+  yellow: yellow,
+  grey: grey,
+  pink: pink,
+);
+
+@each $key, $value in $colors {
+  @for $i from 1 through 9 {
+    .text-#{$key}-#{$i}00 {
+      color: darken($value, $i * 5%);
+    }
+  }
+}

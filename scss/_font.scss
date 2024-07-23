@@ -1,0 +1,22 @@
+$font-size-base: 16px;
+$font-size-small: 14px;
+$font-size-large: 20px;
+$font-size-xlarge: 24px;
+$font-size-xxlarge: 32px;
+$font-size-h1: 32px;
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
+$font-family-base: "Arial", sans-serif;
+$font-family-heading: "Georgia", serif;
+$font-family-monospace: "Courier New", monospace;
+
+@mixin font-family($family) {
+  font-family: $family;
+}
+@mixin font-size($size) {
+  font-size: $size;
+}
